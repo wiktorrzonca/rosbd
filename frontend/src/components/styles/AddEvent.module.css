@@ -1,0 +1,114 @@
+.addEventPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f7f7f7;
+  font-family: 'Roboto', sans-serif;
+}
+
+.addEventContainer {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+  /* Add padding to the container to create equal space on the sides */
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.header {
+  text-align: center;
+  color: #333;
+}
+
+.subHeader {
+  margin-top: 2rem;
+}
+
+.categoryList {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.categoryItem {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #e9e9e9;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+  /* Add padding to .formGroup if you want more space around the inputs */
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.input,
+.textarea,
+.select {
+  width: calc(100% - 1rem); /* Adjust width to account for padding */
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 2px solid #dcdcdc;
+}
+
+.input:focus,
+.textarea:focus,
+.select:focus {
+  border-color: #a2d5ab;
+  outline: none;
+}
+
+.textarea {
+  width: calc(100% - 1rem); /* Adjust width to account for padding */
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 2px solid #dcdcdc;
+  height: 150px; /* Set a fixed height for the textarea */
+  resize: none; /* Disable resizing */
+}
+
+.submitButton {
+  padding: 0.75rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.submitButton:hover {
+  background-color: #369f47;
+  transform: translateY(-3px);
+}
+.mapContainer {
+
+  border: 1px solid #ddd; /* Add a light grey border */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.19); /* Add a subtle shadow */
+}
+@media (max-width: 768px) {
+  .addEventContainer {
+    width: 90%;
+  }
+}

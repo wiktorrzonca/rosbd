@@ -1,0 +1,63 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: #eaeaea;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: 'Roboto', sans-serif;
+}
+
+.navItem {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navItem:not(:last-child) {
+  margin-right: 10px;
+}
+
+.navItem:hover {
+  background-color: #dcdcdc;
+}
+
+.navItems {
+  display: flex;
+}
+
+.navButton {
+  background-color: #dcdcdc;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a light box-shadow */
+  transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+.navButton:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly larger shadow on hover */
+}
+
+.logoutButton {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.navItems .navButton + .navButton {
+  margin-left: 10px;
+}
+
+.navLogo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.navbarLogo {
+  height: 80px;
+  width: auto;
+}

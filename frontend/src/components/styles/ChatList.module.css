@@ -1,0 +1,49 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.userList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.userItem {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.userLink {
+  text-decoration: none;
+  color: #5d647b;
+  font-weight: 500;
+  display: block;
+  transition: color 0.2s ease-in-out;
+}
+
+.userItem:hover .userLink {
+  color: #4a90e2;
+}
+
+.userItem:hover {
+  background: #f0f4f7;
+}

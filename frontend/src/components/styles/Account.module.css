@@ -1,0 +1,36 @@
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.info {
+  margin-bottom: 2rem;
+}
+
+.editButton {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.editButton:hover {
+  background-color: #0056b3;
+}

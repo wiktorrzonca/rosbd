@@ -1,0 +1,68 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.textArea {
+  width: calc(100% - 32px);
+  height: 100px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+}
+
+.submitButton {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: center;
+}
+
+.submitButton:hover {
+  background-color: #357AE8;
+}
+
+.submitButton:hover {
+  background-color: #45A049;
+}
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.chatButton {
+  position: absolute;
+  top: -200px; /* Adjust this value as needed to move the button higher */
+  right: 0;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #357AE8;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 1;
+}
+
+.chatButton:hover {
+  background-color: #2864a8;
+}
+
+.opinionFormContainer {
+  position: relative;
+}

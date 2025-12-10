@@ -1,0 +1,44 @@
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.detail {
+  color: #666;
+  margin: 10px 0;
+}
+
+.detail strong {
+  color: #333;
+  margin-right: 5px;
+}
+
+.opinionsSection {
+  margin-top: 30px;
+}
+
+.opinionItem {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.author {
+  font-weight: bold;
+  color: #5D4037;
+}
+
+.noOpinions {
+  text-align: center;
+  color: #999;
+}

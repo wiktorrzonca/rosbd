@@ -1,0 +1,120 @@
+.eventDetailsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.eventInfoContainer, .reservationsContainer {
+  max-width: 800px;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.eventInfoContainer{
+    margin-top:2rem;
+}
+.header {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.loading {
+  text-align: center;
+}
+
+.info {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.infoTitle {
+  font-weight: bold;
+}
+
+.editButton {
+  background-color: #f0ad4e;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  margin-top: 20px;
+}
+
+.editButton:hover {
+  background-color: #ec971f;
+}
+
+.mapContainer {
+  margin-top: 2rem;
+  border: 2px solid #ddd;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.removeButton {
+  background-color: #d9534f;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1 rem;
+}
+
+.removeButton:hover {
+  background-color: #c9302c;
+}
+.reserveButton {
+  background-color: #4CAF50;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  margin-top: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.reserveButton:hover {
+  background-color: #45a049;
+}
+
+.unregisterButton {
+  background-color: #d9534f;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  margin-top: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.unregisterButton:hover {
+  background-color: #c9302c;
+}
+
+.username {
+  font-size: 1.2rem;
+  color: #333;
+  margin-right: 10px;
+}
